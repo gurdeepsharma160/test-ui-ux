@@ -6,7 +6,7 @@ import FormLayout from "../layout";
 const CountriesOfInterest = () => {
   return (
     <FormLayout
-      title="Countries of Interest"
+      title="Countries of interest"
       description="We are required to check that the
            company will not be interacting with
            forbidden locations. For jurisdiction of
@@ -25,7 +25,7 @@ const CountriesOfInterest = () => {
           rules={[
             {
               required: true,
-              message: "Please select your Jusrisdiction operation!",
+              message: "Please select your jusrisdiction operation!",
             },
           ]}
         >
@@ -35,13 +35,13 @@ const CountriesOfInterest = () => {
           />
         </Form.Item>
         <div className="pt-4">
-          <label>Target Jusrisdiction</label>
+          <label>Target jusrisdiction</label>
           <Form.Item
             hasFeedback
             rules={[
               {
                 required: true,
-                message: "Please select your  Target jusrisdiction!",
+                message: "Please select your  target jusrisdiction!",
               },
             ]}
             name="target"

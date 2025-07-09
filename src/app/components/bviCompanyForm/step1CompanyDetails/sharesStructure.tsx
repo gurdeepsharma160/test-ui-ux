@@ -7,7 +7,7 @@ import FormLayout from "../layout";
 const SharesStructure = () => {
   return (
     <FormLayout
-      title="Shares Structure"
+      title="Shares structure"
       description="All companies must have at least 1 share.
            Apart from that, you can structure things
            in whatever way you like. Issued shares

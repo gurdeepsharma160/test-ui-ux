@@ -39,7 +39,7 @@ export default function Home() {
             </p>
           )}
 
-          <div className="flex mt-10 justify-center gap-x-12">
+          <div className="flex mt-10 justify-center gap-x-18">
             <Button
               disabled={activeStep === 1}
               size="large"

@@ -7,7 +7,7 @@ import FormLayout from "../layout";
 const CompanyInformation = () => {
   return (
     <FormLayout
-      title="Company Information"
+      title="Company information"
       description=" Every company must have a name and a designation. For the
           company name you
            can use both letters and numbers, but not
@@ -16,32 +16,32 @@ const CompanyInformation = () => {
            another."
     >
       <div>
-        <label>Company Name</label>
+        <label>Company name</label>
         <Form.Item
           hasFeedback
           name="companyName"
           rules={[
-            { required: true, message: "Please input your Company name!" },
+            { required: true, message: "Please input your company name!" },
           ]}
         >
           <AppInput className="!mt-4 " />
         </Form.Item>
         <div className="pt-4">
-          <label>Alternative Company Name</label>
+          <label>Alternative company name</label>
           <Form.Item hasFeedback name="alternativeCompanyName">
             <AppInput variant="outlined" className="!mt-4 " />
           </Form.Item>
         </div>
 
         <div className="pt-4">
-          <label>Company Designation</label>
+          <label>Company designation</label>
           <Form.Item
             hasFeedback
             name="designation"
             rules={[
               {
                 required: true,
-                message: "Please input your Company designation!",
+                message: "Please input your company designation!",
               },
             ]}
           >
