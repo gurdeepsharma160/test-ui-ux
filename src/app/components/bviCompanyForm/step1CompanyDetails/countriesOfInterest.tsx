@@ -18,14 +18,14 @@ const CountriesOfInterest = () => {
            clients from other countries, it’s ok."
     >
       <div>
-        <label>Jusrisdiction of operation</label>
+        <label>Jurisdiction of operation</label>
         <Form.Item
           hasFeedback
           name="operation"
           rules={[
             {
               required: true,
-              message: "Please select your jusrisdiction operation!",
+              message: "Please select your jurisdiction operation!",
             },
           ]}
         >
@@ -35,13 +35,13 @@ const CountriesOfInterest = () => {
           />
         </Form.Item>
         <div className="pt-4">
-          <label>Target jusrisdiction</label>
+          <label>Target jurisdiction</label>
           <Form.Item
             hasFeedback
             rules={[
               {
                 required: true,
-                message: "Please select your  target jusrisdiction!",
+                message: "Please select your target jurisdiction!",
               },
             ]}
             name="target"
