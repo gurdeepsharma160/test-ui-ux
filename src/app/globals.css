@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+.ant-select-arrow {
+  color: white !important;
+}
+.ant-select-dropdown .ant-select-item-option-content {
+  color: black !important;
+}
+
+:where(.css-dev-only-do-not-override-1o1yvoc).ant-select .ant-select-arrow {
+  color:white !important
+}
+
+
+:where(.css-dev-only-do-not-override-15zm848).ant-form-item .ant-form-item-explain-error {
+  font-size: 16px;
+   font-family: var(--font-poppins), sans-serif;
+
+}
+label {
+  font-family: var(--font-nunito), sans-serif;
+  font-size: 1.30rem;
+  font-weight: 700; 
+}
+
+.ant-select-selection-item {
+ font-family: var(--font-poppins), sans-serif;
+  font-size: 1.25rem;  
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #505359 inset !important;
+  -webkit-text-fill-color: white !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+body {
+  background: var(--background);
+  color: white !important
+}
