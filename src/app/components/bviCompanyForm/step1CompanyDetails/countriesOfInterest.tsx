@@ -6,8 +6,8 @@ import FormLayout from "../layout";
 const CountriesOfInterest = () => {
   return (
     <FormLayout
-      title="Countries Of Interest"
-      description=" We are required to check that the
+      title="Countries of Interest"
+      description="We are required to check that the
            company will not be interacting with
            forbidden locations. For jurisdiction of
            operation’ if you are alone, select your
